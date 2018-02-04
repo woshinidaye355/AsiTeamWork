@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AsiTeamWork" />
+        <module name="eurekaservicetwo" />
+        <module name="eurkaserviceone" />
+      </profile>
+      <profile name="Annotation profile for asi" enabled="true">
+        <sourceOutputDir name="../eurkaserviceone/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../eurkaserviceone/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eurekaserviceone" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="AsiTeamWork" target="1.5" />
+      <module name="eurekaserviceone" target="1.8" />
+      <module name="eurekaservicetwo" target="1.8" />
+      <module name="eurkaserviceone" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
